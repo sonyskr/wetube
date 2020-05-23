@@ -1,6 +1,6 @@
 import express from"express";
-import morgan from "morgan";//morgan is used for loggin in middleware
-import helmet from "helmet";//helemt is used for security
+import morgan from "morgan";// morgan is used for loggin in middleware
+import helmet from "helmet";// helemt is used for security
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
 import { localsMiddleware } from "./middlewares";
